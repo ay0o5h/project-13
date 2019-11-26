@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+$maincolor: darkgreen;
+$secondcolor:aliceblue;
+.iconstyle {
+    padding: 5px;
+    padding-left: 10px;
+    i {
+        font-size: 40px;
+        color: $maincolor;
+        margin-top:20px;
+    }
+    h3 {
+        color: $secondcolor;
+        text-transform: capitalize;
+        margin-top:20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    p {
+        color: $maincolor;
+        text-transform: capitalize;
+        margin-top:20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+.row {
+    margin-right: 0;
+}
+/* start header */
+.header {
+    background-image: url('p.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    .navbar-brand {
+        color: $maincolor;
+        font-family: fantasy;
+        font-size: 40px;
+       text-shadow: 2px 2px black;
+       text-transform: uppercase;
+    }
+    .navbar-nav {
+        margin-left: 80%;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: white;
+        text-transform: capitalize;
+       font-size: 20px;
+    }
+    .active {
+        border: 2px solid $maincolor;
+        border-radius: 3px;
+    }
+    p {
+        color: $secondcolor;
+        text-transform: capitalize;
+        text-shadow: 2px 2px $maincolor;
+        font-size: 30px;
+        margin-top: 10%
+    }
+    i {
+        background-color: $maincolor;
+        color: $secondcolor;
+        font-size: 40px;
+        border-radius: 50px;
+        padding: 1%;
+        margin-top: 10%;
+        margin-bottom:5%;
+        cursor: pointer;
+    }
+}
+/* end header */
+/* start icons */ 
+.icons {
+    .col-sm-4 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .icon1 {
+        background-color: darkslategrey;
+        @extend .iconstyle
+    }
+    .icon2 {
+        background-color: black;
+        @extend .iconstyle
+    }
+    .icon3 {
+        background-color: grey;
+        @extend .iconstyle
+    }
+  }
+ /* end icons */
+ /* start offer */
+ .offer {
+     i {
+        font-size: 20px;
+        color: $secondcolor;
+        background-color: $maincolor;
+        margin-top:20px;
+        border-radius: 50px;
+        padding: 5px;
+     }
+     h5{
+         color: black;
+         text-transform: capitalize;
+         font-family: 'Times New Roman', Times, serif;
+         margin-top: 10%;
+     }
+
+     .img {
+         background-image: url('p1.jpg');
+         height: 400px;
+     }
+     .btn {
+         font-family: 'Times New Roman', Times, serif;
+         margin-top: 20px;
+         margin-right: 50px;
+     }
+ }
+ /* end offer */
+ /* start video */
+ .video {
+     background-image: url('p.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     .watch {
+         background-color: black;
+         opacity: 0.8;
+         width: 100%;
+     }
+     h1 {
+        color: $secondcolor;
+        text-transform: capitalize;
+        font-family: 'Times New Roman', Times, serif;
+        padding-top:10%;
+     }
+     .btn {
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+ }
+ /*end offer */
+ /* start blog*/
+ .blog  {
+     background-color: $maincolor;
+     padding: 5px;
+     h3 {
+         text-transform: capitalize;
+         font-family: 'Times New Roman', Times, serif;
+         color:black;
+         margin-top: 20px;
+     }
+     p {
+        text-transform: capitalize;
+        font-family: 'Times New Roman', Times, serif;
+        color:$secondcolor;
+        margin-top: 20px;
+    }
+    .topic {
+        background-color: $secondcolor;
+        width: 300px;
+        margin-left: 15%;
+        h3,p {
+            text-transform: capitalize;
+            font-family: 'Times New Roman', Times, serif;
+            color:black;
+            text-align:left;
+        }
+        .btn {
+            background-color: black;
+            color:$maincolor;
+            text-transform: capitalize;
+            font-family: 'Times New Roman', Times, serif;
+            border:2px solid $maincolor;
+            border-radius:10px;
+        }
+        .btn:hover {
+            background-color:$maincolor;
+            color:black;
+            border:2px solid black;
+        }
+    }
+    i {
+        font-size: 30px;
+        border-radius: 50px;
+        padding: 1%;
+        color:$maincolor;
+        background-color: $secondcolor;
+        margin-top: 30px;
+    }
+ }
+ /* end blog */
+ /* start project */
+ .project {
+     background-color: black;
+     padding: 10px;
+     h3,p {
+         color:$secondcolor;
+         text-transform:capitalize;
+         font-family: cursive;
+         margin-top: 30px;
+     }
+     .btn {
+         font-family: 'Times New Roman', Times, serif;
+         margin-right: 10px;
+         margin-bottom: 30px;
+     }
+     .btn-success:hover {
+         background-color: $secondcolor;
+         color:black;
+     }
+     .btn-light:hover {
+        background-color: $maincolor;
+        color:$secondcolor;
+    }
+ }
+ /*end project*/
+ /* start footer */
+ .footer {
+     h3 {
+        color: $maincolor;
+        font-family: fantasy;
+        font-size: 40px;
+       text-shadow: 2px 2px black;
+       text-transform: uppercase;
+       margin-left: 30px;
+       margin-top:30px;
+     }
+     p {
+         font-family: 'Times New Roman', Times, serif;
+         text-transform:capitalize;
+         color:black;
+         margin-left: 30px;
+         margin-top:30px;
+     }
+     i {
+         color: black;
+         font-size: 30px;
+         margin-left: 20px;
+         margin-top:30px;
+     }
+ }
+ /* end footer */
+ /* start copyright */
+ .copy {
+     color: $secondcolor;
+     background-color: black;
+     margin-top: 20px;
+     padding: 3%;
+     p {
+        font-family: 'Times New Roman', Times, serif;
+        text-transform:capitalize;
+     }
+     span {
+         color:$maincolor;
+         float: right;
+     }
+ }
+ /* end copyright */

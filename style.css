@@ -1,0 +1,294 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.iconstyle, .icons .icon1, .icons .icon2, .icons .icon3 {
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.iconstyle i, .icons .icon1 i, .icons .icon2 i, .icons .icon3 i {
+  font-size: 40px;
+  color: darkgreen;
+  margin-top: 20px;
+}
+
+.iconstyle h3, .icons .icon1 h3, .icons .icon2 h3, .icons .icon3 h3 {
+  color: aliceblue;
+  text-transform: capitalize;
+  margin-top: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.iconstyle p, .icons .icon1 p, .icons .icon2 p, .icons .icon3 p {
+  color: darkgreen;
+  text-transform: capitalize;
+  margin-top: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.row {
+  margin-right: 0;
+}
+
+/* start header */
+.header {
+  background-image: url("p.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header .navbar-brand {
+  color: darkgreen;
+  font-family: fantasy;
+  font-size: 40px;
+  text-shadow: 2px 2px black;
+  text-transform: uppercase;
+}
+
+.header .navbar-nav {
+  margin-left: 80%;
+}
+
+.header .navbar-dark .navbar-nav .nav-link {
+  color: white;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+.header .active {
+  border: 2px solid darkgreen;
+  border-radius: 3px;
+}
+
+.header p {
+  color: aliceblue;
+  text-transform: capitalize;
+  text-shadow: 2px 2px darkgreen;
+  font-size: 30px;
+  margin-top: 10%;
+}
+
+.header i {
+  background-color: darkgreen;
+  color: aliceblue;
+  font-size: 40px;
+  border-radius: 50px;
+  padding: 1%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  cursor: pointer;
+}
+
+/* end header */
+/* start icons */
+.icons .col-sm-4 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.icons .icon1 {
+  background-color: darkslategrey;
+}
+
+.icons .icon2 {
+  background-color: black;
+}
+
+.icons .icon3 {
+  background-color: grey;
+}
+
+/* end icons */
+/* start offer */
+.offer i {
+  font-size: 20px;
+  color: aliceblue;
+  background-color: darkgreen;
+  margin-top: 20px;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+.offer h5 {
+  color: black;
+  text-transform: capitalize;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 10%;
+}
+
+.offer .img {
+  background-image: url("p1.jpg");
+  height: 400px;
+}
+
+.offer .btn {
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+/* end offer */
+/* start video */
+.video {
+  background-image: url("p.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.video .watch {
+  background-color: black;
+  opacity: 0.8;
+  width: 100%;
+}
+
+.video h1 {
+  color: aliceblue;
+  text-transform: capitalize;
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 10%;
+}
+
+.video .btn {
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+/*end offer */
+/* start blog*/
+.blog {
+  background-color: darkgreen;
+  padding: 5px;
+}
+
+.blog h3 {
+  text-transform: capitalize;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  margin-top: 20px;
+}
+
+.blog p {
+  text-transform: capitalize;
+  font-family: 'Times New Roman', Times, serif;
+  color: aliceblue;
+  margin-top: 20px;
+}
+
+.blog .topic {
+  background-color: aliceblue;
+  width: 300px;
+  margin-left: 15%;
+}
+
+.blog .topic h3, .blog .topic p {
+  text-transform: capitalize;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  text-align: left;
+}
+
+.blog .topic .btn {
+  background-color: black;
+  color: darkgreen;
+  text-transform: capitalize;
+  font-family: 'Times New Roman', Times, serif;
+  border: 2px solid darkgreen;
+  border-radius: 10px;
+}
+
+.blog .topic .btn:hover {
+  background-color: darkgreen;
+  color: black;
+  border: 2px solid black;
+}
+
+.blog i {
+  font-size: 30px;
+  border-radius: 50px;
+  padding: 1%;
+  color: darkgreen;
+  background-color: aliceblue;
+  margin-top: 30px;
+}
+
+/* end blog */
+/* start project */
+.project {
+  background-color: black;
+  padding: 10px;
+}
+
+.project h3, .project p {
+  color: aliceblue;
+  text-transform: capitalize;
+  font-family: cursive;
+  margin-top: 30px;
+}
+
+.project .btn {
+  font-family: 'Times New Roman', Times, serif;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.project .btn-success:hover {
+  background-color: aliceblue;
+  color: black;
+}
+
+.project .btn-light:hover {
+  background-color: darkgreen;
+  color: aliceblue;
+}
+
+/*end project*/
+/* start footer */
+.footer h3 {
+  color: darkgreen;
+  font-family: fantasy;
+  font-size: 40px;
+  text-shadow: 2px 2px black;
+  text-transform: uppercase;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.footer p {
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+  color: black;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.footer i {
+  color: black;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+/* end footer */
+/* start copyright */
+.copy {
+  color: aliceblue;
+  background-color: black;
+  margin-top: 20px;
+  padding: 3%;
+}
+
+.copy p {
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+}
+
+.copy span {
+  color: darkgreen;
+  float: right;
+}
+
+/* end copyright */
+/*# sourceMappingURL=style.css.map */
